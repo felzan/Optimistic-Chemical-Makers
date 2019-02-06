@@ -77,6 +77,7 @@ Para mais informações sobre git:
 4.4. Deleta uma *branch* ([git doc](https://git-scm.com/docs/git-branch))
 
     git branch -d [nome da branch]
+    git branch -D [nome da branch]
 
 4.5. Cria uma nova branch e faz dela a *branch* atual ([git doc](https://git-scm.com/docs/git-checkout))
 
@@ -86,7 +87,7 @@ Para mais informações sobre git:
 
     git checkout [branch name]
 
-4.7. Discarta as alterações feitas em um arquivo ([git doc](https://git-scm.com/docs/git-checkout))
+4.7. Descarta as alterações feitas em um arquivo ([git doc](https://git-scm.com/docs/git-checkout))
 
     git checkout -- [path do arquivo]
 
